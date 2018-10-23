@@ -21,14 +21,14 @@
             <h1 class="display-4">Registration</h1>
         </div>
         <div class="col-md-8">
-            <form class="form-co">
+            <form class="js-registration">
                 <div class="form-group">
                     <label for="exampleInputEmail1">First Name</label>
-                    <input type="text" class="form-control" placeholder="Enter First Name">
+                    <input type="text" name="fname" class="form-control" placeholder="Enter First Name">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Last Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Last Name">
+                    <input type="text" name="lname" class="form-control" placeholder="Enter Last Name">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
@@ -39,10 +39,8 @@
                     <label for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
+               
+                <p class="js-error text-danger mt-1"></p>
                 <button type="submit" class="btn btn-primary">Register</button>
             </form>
         </div>

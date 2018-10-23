@@ -23,17 +23,17 @@
         <div class="col-md-8">
             <form class="js-login">
                
-                <div class="form-group">
+                <div class="form-group" id="fname">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
-                <div class="form-group">
+                <div class="form-group" id="lname">
                     <label for="exampleInputPassword1">Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 
                 <p class="js-error text-danger mt-1"></p>
-                
+
                 <button type="submit" class="btn btn-primary">LOGIN</button>
             </form>
         </div>
