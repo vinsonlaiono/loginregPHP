@@ -4,4 +4,9 @@
         exit('Page Load Fail Error = {ID:10-T}');
     }
 
+    // Include the DB.php file
+    include_once "DB.php";
+
+    $con = DB::getConnection();
+
 ?>
